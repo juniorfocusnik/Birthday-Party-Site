@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg.jpg");
+  background-image: url("shutterstock_736870894.jpg");
   background-size: cover;
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 .info4Container {
-  background-image: url("bg.jpg");
+  background-image: url("shutterstock_736870894.jpg");
   background-size: cover;
   width: 100%;
   height: 50vh;
@@ -257,7 +257,7 @@ body {
 .footerContainer {
   width: 100%;
   height: 50vh;
-  background-image: url("images/bg 2.jpg");
+  background-image: url("bg 2.jpg");
   background-size: cover;
 }
 
