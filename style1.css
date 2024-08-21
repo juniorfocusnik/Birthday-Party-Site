@@ -8,10 +8,9 @@ body {
 }
 
 .images {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-left: 10%;
   margin-top: 150px;
 }
 
@@ -28,7 +27,7 @@ body {
   background-size: cover;
   width: 100%;
   margin-top: 50px;
-  height: 50vh;
+  height: 400px;
 }
 
 .info2Title {
@@ -36,7 +35,7 @@ body {
   font-family: "Super Mario 256";
   text-align: center;
   position: absolute;
-  top: 115vh;
+  top: 875px;
   left: 0;
   width: 100%;
 }
@@ -57,33 +56,34 @@ body {
   font-family: "Arial";
   width: 50%;
   position: absolute;
-  top: 125vh;
+  top: 950px;
   left: 45%;
 }
 
 .luckyblock {
   position: absolute;
-  top: 115vh;
+  top: 900px;
   left: 70%;
-  width: 20%;
+  width: 300px;
+  height: 300px;
 }
 
 .info2Text {
   position: absolute;
   left: 30px;
-  top: 110vh;
+  top: 900px;
 }
 
 .imgMushroom1 {
   position: absolute;
   left: 5%;
-  animation: dance1 1s linear infinite;
+  animation: dance1 3s linear infinite;
 }
 
 @keyframes dance1 {
-  0% {top: 121vh;}
-  50% {top: 111vh;}
-  100% {top: 121vh;}
+  0% {top: 1200px;}
+  50% {top: 850px;}
+  100% {top: 1200px;}
 }
 
 .imgStar1 {
@@ -93,9 +93,9 @@ body {
 }
  
 @keyframes dance2 {
-  0% {top: 111vh;}
-  50% {top: 154vh;}
-  100% {top: 111vh;}
+  0% {top: 850px;}
+  50% {top: 1200px;}
+  100% {top: 850px;}
 }
 
 .imgMushroom2 {
@@ -105,9 +105,9 @@ body {
 }
 
 @keyframes dance3 {
-  0% {top: 157vh;}
-  50% {top: 147vh;}
-  100% {top: 157vh;}
+  0% {top: 1200px;}
+  50% {top: 1125px;}
+  100% {top: 1200px;}
 }
 
 .imgStar2 {
@@ -117,9 +117,9 @@ body {
 }
 
 @keyframes dance4 {
-  0% {top: 157vh;}
-  50% {top: 111vh;}
-  100% {top: 157vh;}
+  0% {top: 1200px;}
+  50% {top: 850px;}
+  100% {top: 1200px;}
 }
 
 .imgStar3 {
@@ -129,9 +129,9 @@ body {
 }
 
 @keyframes dance5 {
-  0% {top: 157vh;}
-  50% {top: 140vh;}
-  100% {top: 157vh;}
+  0% {top: 1200px;}
+  50% {top: 1100px;}
+  100% {top: 1200px;}
 }
 
 .imgMushroom3 {
@@ -141,29 +141,29 @@ body {
 }
 
 @keyframes dance6 {
-  0% {top: 111vh;}
-  50% {top: 154vh;}
-  100% {top: 111vh;}
+  0% {top: 850px;}
+  50% {top: 1200px;}
+  100% {top: 850px;}
 }
 
 .sprinkle {
   position: absolute;
-  width: 0.5%;
-  height: 1%;
+  width: 8px;
+  height: 8px;
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   animation: fallDown 4s linear infinite;
 }
 
 @keyframes fallDown {
   0% {top: 0;}
-  100% {top: 100vh;}
+  100% {top: 750px;}
 }
 
 .info3Container {
   background-image: url("bg 2.jpg");
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 800px;
 }
 
 .info3Title {
@@ -171,46 +171,45 @@ body {
   font-family: "Super Mario 256";
   text-align: left;
   position: absolute;
-  top: 190vh;
-  left: 55%;
-  width: 45%;
+  top: 1475px;
+  left: 800px;
 }
 
 .info3 {
   font-size: 25px;
   font-family: "Arial";
-  width: 42%;
   position: absolute;
-  top: 205vh;
-  left: 54%;
+  top: 1575px;
+  left: 775px;
+  right: 10px;
   text-align: left;
 }
 
 .info3Bounce {
   position: absolute;
-  top: 190vh;
-  left: 4%;
+  top: 1500px;
+  left: 50px;
   border: 10px solid #000000
 }
 
 .info3Bubble {
   position: absolute;
-  top: 190vh;
-  left: 30%;
+  top: 1500px;
+  left: 425px;
   border: 10px solid #000000
 }
 
 .info3Science {
   position: absolute;
-  top: 240vh;
-  left: 4%;
+  top: 1875px;
+  left: 50px;
   border: 10px solid #000000
 }
 
 .info3Quest {
   position: absolute;
-  top: 240vh;
-  left: 30%;
+  top: 1875px;
+  left: 425px;
   border: 10px solid #000000
 }
 
@@ -218,7 +217,7 @@ body {
   background-image: url("shutterstock_736870894.jpg");
   background-size: cover;
   width: 100%;
-  height: 50vh;
+  height: 400px;
 }
 
 .info4Title {
@@ -226,7 +225,7 @@ body {
   font-family: "Super Mario 256";
   text-align: center;
   position: absolute;
-  top: 315vh;
+  top: 2475px;
   width: 100%;
   color: white;
 }
@@ -236,7 +235,7 @@ body {
   font-family: "Arial";
   width: 40%;
   position: absolute;
-  top: 330vh;
+  top: 2575px;
   left: 30%;
   text-align: center;
   color: white;
@@ -244,29 +243,22 @@ body {
 
 .map {
   position: absolute;
-  top: 312vh;
+  top: 2475px;
   left: 71%;
 }
 
 .finish {
   position: absolute;
-  top: 312vh;
+  top: 2475px;
   left: 10%;
-}
-
-.footerContainer {
-  width: 100%;
-  height: 50vh;
-  background-image: url("bg 2.jpg");
-  background-size: cover;
 }
 
 .footerText {
   font-size: 25px;
   font-family: "Arial";
-  width: 40%;
+  width: 700px;
   position: absolute;
-  top: 365vh;
+  top: 2875px;
   left: 10%;
   text-align: center;
   color: white;
@@ -276,7 +268,7 @@ body {
   font-size: 15px;
   font-family: "Arial";
   position: absolute;
-  top: 360vh;
+  top: 2850px;
   left: 85%;
   text-align: center;
   color: white;
@@ -288,6 +280,6 @@ body {
   font-family:"Wall IT - LJ-Design Studios";
   color: white;
   position: absolute;
-  top: 30vh;
+  top: 200px;
   left: 5%;
 }
